@@ -1,0 +1,38 @@
+{
+    "create_lobby": {
+        "keys": [
+            "1"
+        ],
+        "description": "Crea Lobby"
+    },
+    "start_queue": {
+        "keys": [
+            "2"
+        ],
+        "description": "Avvia Coda"
+    },
+    "stop_queue": {
+        "keys": [
+            "3"
+        ],
+        "description": "Ferma Coda"
+    },
+    "start_monitoring": {
+        "keys": [
+            "4"
+        ],
+        "description": "Avvia Auto Accept"
+    },
+    "stop_monitoring": {
+        "keys": [
+            "5"
+        ],
+        "description": "Ferma Auto Accept"
+    },
+    "custom": {
+        "keys": [
+            "6"
+        ],
+        "description": "Avvia personalizzata"
+    }
+}
