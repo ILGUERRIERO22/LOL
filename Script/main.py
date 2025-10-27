@@ -723,6 +723,7 @@ class LeagueApp:
             state=btn_state,
             command=click_command
         )
+        run_button.pack(side="bottom", fill="x")
 
         
         # Effetti hover per il pulsante (solo se disponibile)
