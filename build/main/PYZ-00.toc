@@ -1,4 +1,4 @@
-('C:\\Users\\dbait\\Documents\\GitHub\\LOL\\build\\main\\PYZ-00.pyz',
+('C:\\Users\\dbait\\Documents\\GitHub\\LOL\\Script\\build\\main\\PYZ-00.pyz',
  [('PIL',
    'C:\\Users\\dbait\\AppData\\Roaming\\Python\\Python313\\site-packages\\PIL\\__init__.py',
    'PYMODULE'),

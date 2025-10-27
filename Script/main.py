@@ -7,6 +7,13 @@ import threading
 import glob
 import sys
 
+
+try:
+    from PIL import Image, ImageTk
+    PIL_AVAILABLE = True
+except ImportError:
+    PIL_AVAILABLE = False
+
 # ... (tutto il resto dei tuoi import rimane uguale)
 
 # Directory base del launcher.
@@ -35,6 +42,37 @@ def run_tool(folder_name, exe_name):
         except Exception as e2:
             from tkinter import messagebox
             messagebox.showerror("Errore", f"Impossibile avviare {exe_name}.\nPercorso provato:\n{exe_path}\n\nDettagli:\n{e}\n{e2}")
+
+
+# Mappa tra il nome dello script .py e l'exe da lanciare
+# Chiave = nome che compare in SCRIPTS / create_script_card (es. "Shop Riot.py")
+# Valore = (cartella dove sta l'exe, nome dell'exe)
+SCRIPT_TO_EXE = {
+    "Wallet.py":                      ("Wallet", "Wallet.exe"),
+    "Shop Riot.py":                   ("Shop Riot", "Shop Riot.exe"),
+    "rank.py":                        ("rank", "rank.exe"),
+    "match.py":                       ("match", "match.exe"),
+    "replay.py":                      ("Replay", "Replay.exe"),
+    "Stato.py":                       ("Stato", "Stato.exe"),
+    "GameMode.py":                    ("GameMode", "GameMode.exe"),
+    "login.py":                       ("login", "login.exe"),
+    "friendlist_manager.py":          ("friendlist_manager", "friendlist_manager.exe"),
+    "friendlist.py":                  ("friendlist_manager", "friendlist_manager.exe"),
+    "Info Account.py":                ("Info Account", "Info Account.exe"),
+    "change_riotid.py":               ("change_riotid", "change_riotid.exe"),
+    "Maestrie.py":                    ("Maestrie", "Maestrie.exe"),
+    "loot.py":                        ("loot", "loot.exe"),
+    "calcolaRP.py":                   ("calcolaRP", "calcolaRP.exe"),
+    "convertitore.py":                ("convertitore", "convertitore.exe"),
+    "genera_email.py":                ("genera_email", "genera_email.exe"),
+    "image_converter.py":             ("image_converter", "image_converter.exe"),
+    "album.py":                       ("album", "album.exe"),
+    "gift.py":                        ("gift", "gift.exe"),
+    "lol_champion_select_app.py":     ("lol_champion_select_app", "lol_champion_select_app.exe"),
+    "lol-messenger.py":               ("lol-messenger", "lol-messenger.exe"),
+    "lol-accept-queue-script.py":     ("accept_queue", "accept_queue.exe"),
+}
+
 
 
 TOOLS = [
@@ -67,11 +105,7 @@ TOOLS = [
 
 
 
-try:
-    from PIL import Image, ImageTk
-    PIL_AVAILABLE = True
-except ImportError:
-    PIL_AVAILABLE = False
+
 
 # Configurazione centralizzata: dizionario con nomi degli script e descrizioni
 SCRIPTS = {
