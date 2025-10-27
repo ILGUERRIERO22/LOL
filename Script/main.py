@@ -23,25 +23,65 @@ BASE_DIR = os.path.dirname(sys.executable) if getattr(sys, "frozen", False) else
 
 def run_tool(folder_name, exe_name):
     """
-    Avvia uno dei tool esterni.
-    folder_name = nome della sottocartella accanto al launcher nella cartella principale (es: 'Wallet')
-    exe_name    = nome dell'eseguibile dentro quella cartella (es: 'Wallet.exe')
+    Avvia un tool esterno (.exe) in modo portabile.
+    Funziona se:
+    - stai lanciando il launcher compilato (LOL Launcher.exe)
+    - hai spostato la cartella 'dist' su un altro percorso
+    - lanci tramite Logitech G Hub (working dir random)
+
+    Assunzione struttura:
+    dist/
+        LOL Launcher/LOL Launcher.exe  <-- questo programma
+        {folder_name}/{exe_name}       <-- gli altri tool
     """
-    # Sali dalla cartella del launcher (LOL Launcher\) alla cartella principale (LOL Tools\),
-    # poi entra nella cartella del tool e punta all'exe.
-    parent_dir = os.path.abspath(os.path.join(BASE_DIR, os.pardir))
-    exe_path = os.path.join(parent_dir, folder_name, exe_name)
+
+    if getattr(sys, "frozen", False):
+        # Stai girando come exe (LOL Launcher.exe)
+        launcher_dir = os.path.dirname(sys.executable)
+    else:
+        # Stai girando da python main.py (sviluppo), quindi
+        # immaginiamo struttura simile:
+        # LOL/
+        #   Script/main.py     <-- questo file
+        #   dist/Wallet/Wallet.exe
+        launcher_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # suite_root = cartella sorella comune (es. ...\dist)
+    suite_root = os.path.abspath(os.path.join(launcher_dir, os.pardir))
+
+    # percorso completo dell'exe del tool richiesto
+    exe_path = os.path.join(suite_root, folder_name, exe_name)
+    workdir = os.path.join(suite_root, folder_name)
+
+    if not os.path.exists(exe_path):
+        messagebox.showerror(
+            "Exe non trovato",
+            (
+                "Il launcher è partito (anche da Logitech), ma non riesce a trovare l'eseguibile richiesto.\n\n"
+                f"Cartella tool dichiarata: {folder_name}\n"
+                f"Nome exe dichiarato:     {exe_name}\n\n"
+                "Percorso costruito:\n"
+                f"{exe_path}\n\n"
+                "Quindi controlla sul disco:\n"
+                f"- Esiste la cartella {workdir} ?\n"
+                f"- Dentro c'è davvero un file chiamato {exe_name} ?\n\n"
+                "Se il nome/cartella non coincidono, aggiorna SCRIPT_TO_EXE."
+            )
+        )
+        return
 
     try:
-        subprocess.Popen([exe_path], shell=False)
+        subprocess.Popen(
+            [exe_path],
+            shell=False,
+            cwd=workdir  # importantissimo: così il tool parte dentro la sua stessa cartella
+        )
     except Exception as e:
-        # fallback: prova stesso livello (utile se stai ancora sviluppando tutto in una sola cartella)
-        alt_path = os.path.join(BASE_DIR, folder_name, exe_name)
-        try:
-            subprocess.Popen([alt_path], shell=False)
-        except Exception as e2:
-            from tkinter import messagebox
-            messagebox.showerror("Errore", f"Impossibile avviare {exe_name}.\nPercorso provato:\n{exe_path}\n\nDettagli:\n{e}\n{e2}")
+        messagebox.showerror(
+            "Errore di avvio",
+            f"Ho trovato {exe_path} ma non riesco ad avviarlo.\n\nDettagli:\n{e}"
+        )
+
 
 
 # Mappa tra il nome dello script .py e l'exe da lanciare
@@ -181,41 +221,59 @@ class LeagueApp:
         self.root.protocol("WM_DELETE_WINDOW", self.on_close)
         
         # Scansiona i percorsi degli script all'avvio
-        self.scan_script_paths()
-        
         self.setup_main_window()
 
+        self.scan_script_paths()
+
+        self.show_all_scripts()
+        
+        
+
     def scan_script_paths(self):
-        """Scansiona tutte le cartelle configurate per trovare gli script."""
+        """
+        Segna tutti gli script come disponibili e prepara i campi che il resto
+        dell'app si aspetta:
+        - self.available_scripts[script_name] -> True/False (per le card)
+        - self.script_paths[script_name]      -> stringa da mostrare sotto il titolo
+        - self.status_label (in alto a destra)
+
+        Nota importante:
+        Non controlliamo più davvero il filesystem.
+        Per noi "trovato" = "lo script è uno dei tool noti".
+        L'esecuzione reale poi la fa run_tool() usando SCRIPT_TO_EXE.
+        """
+
+        self.available_scripts = {}
         self.script_paths = {}
-        print("🔍 Scansione script in corso...")
-        
+
+        # Siamo dentro l'exe buildato (launcher congelato da PyInstaller)?
+        is_frozen = getattr(sys, "frozen", False)
+
         for script_name in SCRIPTS.keys():
-            found = False
-            for folder in SCRIPT_FOLDERS:
-                script_path = os.path.join(folder, script_name)
-                if os.path.exists(script_path):
-                    self.script_paths[script_name] = script_path
-                    print(f"✅ Trovato: {script_name} -> {script_path}")
-                    found = True
-                    break
-            
-            if not found:
-                # Cerca ricorsivamente nelle sottocartelle
-                for folder in SCRIPT_FOLDERS:
-                    if os.path.exists(folder):
-                        search_pattern = os.path.join(folder, "**", script_name)
-                        matches = glob.glob(search_pattern, recursive=True)
-                        if matches:
-                            self.script_paths[script_name] = matches[0]
-                            print(f"✅ Trovato (ricerca ricorsiva): {script_name} -> {matches[0]}")
-                            found = True
-                            break
-                
-                if not found:
-                    print(f"❌ Non trovato: {script_name}")
-        
-        print(f"🔍 Trovati {len(self.script_paths)} script su {len(SCRIPTS)} totali")
+            # 1. Questo script è considerato disponibile sempre.
+            self.available_scripts[script_name] = True
+
+            # 2. Percorso da mostrare in UI (estetico, non usato per eseguire)
+            #    Prima nel tuo launcher mostravano robe tipo ".\_internal\login.py".
+            #    Quindi lo riproduciamo uguale così l'interfaccia resta identica.
+            if is_frozen:
+                nice_path = f".\\_internal\\{script_name}"
+            else:
+                nice_path = f".\\_internal\\{script_name}"
+
+            self.script_paths[script_name] = nice_path
+
+        # 3. Aggiorna lo stato in alto a destra
+        total_count = len(SCRIPTS)
+        found_count = total_count  # per la nostra logica attuale, tutti disponibili
+
+        if hasattr(self, "status_label") and self.status_label:
+            # verde se tutto trovato
+            self.status_label.config(
+                text=f"✅ {found_count}/{total_count} script trovati",
+                fg=self.current_theme["success"]
+            )
+
 
     def find_script_path(self, script_name):
         """Trova il percorso completo di uno script."""
@@ -395,19 +453,19 @@ class LeagueApp:
         title_label.pack(side="left")
         
         # Indicatore script trovati
-        available_count = len(self.script_paths)
-        total_count = len(SCRIPTS)
+        #available_count = len(self.script_paths)
+        #total_count = len(SCRIPTS)
         
-        status_color = self.current_theme["success"] if available_count > total_count * 0.7 else (
-            self.current_theme["warning"] if available_count > 0 else self.current_theme["error"]
-        )
+        #status_color = self.current_theme["success"] if available_count > total_count * 0.7 else (
+         #   self.current_theme["warning"] if available_count > 0 else self.current_theme["error"]
+        #)
         
-        status_label = tk.Label(header_frame,
-                               text=f"📦 {available_count}/{total_count} script trovati",
-                               font=("Segoe UI", 10, "bold"),
-                               fg=status_color,
-                               bg=self.current_theme["bg_dark"])
-        status_label.pack(side="right")
+        #status_label = tk.Label(header_frame,
+         #                      text=f"📦 {available_count}/{total_count} script trovati",
+          #                     font=("Segoe UI", 10, "bold"),
+           #                    fg=status_color,
+            #                   bg=self.current_theme["bg_dark"])
+        #status_label.pack(side="right")
 
     def create_search_bar(self):
         """Crea la barra di ricerca."""
