@@ -5,6 +5,67 @@ import os
 import subprocess
 import threading
 import glob
+import sys
+
+# ... (tutto il resto dei tuoi import rimane uguale)
+
+# Directory base del launcher.
+# - Quando stai sviluppando (python main.py): usa la cartella dove sta main.py
+# - Quando usi l'eseguibile compilato (LOL Launcher.exe): usa la cartella in cui si trova quell'exe
+BASE_DIR = os.path.dirname(sys.executable) if getattr(sys, "frozen", False) else os.path.dirname(os.path.abspath(__file__))
+
+def run_tool(folder_name, exe_name):
+    """
+    Avvia uno dei tool esterni.
+    folder_name = nome della sottocartella accanto al launcher nella cartella principale (es: 'Wallet')
+    exe_name    = nome dell'eseguibile dentro quella cartella (es: 'Wallet.exe')
+    """
+    # Sali dalla cartella del launcher (LOL Launcher\) alla cartella principale (LOL Tools\),
+    # poi entra nella cartella del tool e punta all'exe.
+    parent_dir = os.path.abspath(os.path.join(BASE_DIR, os.pardir))
+    exe_path = os.path.join(parent_dir, folder_name, exe_name)
+
+    try:
+        subprocess.Popen([exe_path], shell=False)
+    except Exception as e:
+        # fallback: prova stesso livello (utile se stai ancora sviluppando tutto in una sola cartella)
+        alt_path = os.path.join(BASE_DIR, folder_name, exe_name)
+        try:
+            subprocess.Popen([alt_path], shell=False)
+        except Exception as e2:
+            from tkinter import messagebox
+            messagebox.showerror("Errore", f"Impossibile avviare {exe_name}.\nPercorso provato:\n{exe_path}\n\nDettagli:\n{e}\n{e2}")
+
+
+TOOLS = [
+    # Core utilities
+    {"label": "Wallet",                "folder": "Wallet",                "exe": "Wallet.exe"},
+    {"label": "Shop Riot",             "folder": "Shop Riot",             "exe": "Shop Riot.exe"},
+    {"label": "Rank",                  "folder": "rank",                  "exe": "rank.exe"},
+    {"label": "Match Live / Lobby",    "folder": "match",                 "exe": "match.exe"},
+    {"label": "Stato Profilo / Status","folder": "Stato",                 "exe": "Stato.exe"},
+    {"label": "Replay Uploader",       "folder": "Replay",                "exe": "Replay.exe"},
+    {"label": "Game Mode / Lobby",     "folder": "GameMode",              "exe": "GameMode.exe"},
+    {"label": "Login Riot",            "folder": "login",                 "exe": "login.exe"},
+    {"label": "Friendlist Manager",    "folder": "friendlist_manager",    "exe": "friendlist_manager.exe"},
+
+    # Utility comfort / extra
+    {"label": "Info Account",          "folder": "Info Account",          "exe": "Info Account.exe"},
+    {"label": "Cambia Riot ID",        "folder": "change_riotid",         "exe": "change_riotid.exe"},
+    {"label": "Maestrie",              "folder": "Maestrie",              "exe": "Maestrie.exe"},
+    {"label": "Loot / Ricompense",     "folder": "loot",                  "exe": "loot.exe"},
+    {"label": "Shop RP / Calcolo RP",  "folder": "calcolaRP",             "exe": "calcolaRP.exe"},
+    {"label": "Convertitore Valute",   "folder": "convertitore",          "exe": "convertitore.exe"},
+    {"label": "Genera Email",          "folder": "genera_email",          "exe": "genera_email.exe"},
+    {"label": "Image Converter",       "folder": "image_converter",       "exe": "image_converter.exe"},
+    {"label": "Album Screenshot/Skin", "folder": "album",                 "exe": "album.exe"},
+    {"label": "Gift / Regali",         "folder": "gift",                  "exe": "gift.exe"},
+    {"label": "Champion Select Tool",  "folder": "lol_champion_select_app","exe": "lol_champion_select_app.exe"},
+    {"label": "Auto Accept Queue",     "folder": "accept_queue",          "exe": "accept_queue.exe"},
+    {"label": "Messenger LoL",         "folder": "lol-messenger",         "exe": "lol-messenger.exe"},
+]
+
+
 
 try:
     from PIL import Image, ImageTk
@@ -603,20 +664,32 @@ class LeagueApp:
         btn_color = self.current_theme["success"] if is_available else self.current_theme["error"]
         btn_state = "normal" if is_available else "disabled"
         
-        run_button = tk.Button(card_frame, 
-                             text=btn_text, 
-                             font=("Segoe UI", 11, "bold"), 
-                             bg=btn_color, 
-                             fg="#FFFFFF",  # Testo bianco per massimo contrasto
-                             activebackground=self.current_theme["button_hover"],
-                             activeforeground=btn_color,
-                             relief="flat",
-                             padx=20,
-                             pady=10,
-                             cursor="hand2" if is_available else "no",
-                             state=btn_state,
-                             command=lambda: self.run_script(script_name) if is_available else None)
-        run_button.pack(side="bottom", fill="x")
+        # scegli cosa fare quando clicco
+        if is_available and script_name in SCRIPT_TO_EXE:
+            folder_name, exe_name = SCRIPT_TO_EXE[script_name]
+            click_command = lambda fn=folder_name, ex=exe_name: run_tool(fn, ex)
+        elif is_available:
+            # fallback vecchio: prova a lanciare il .py col Python locale
+            click_command = lambda sn=script_name: self.run_script(sn)
+        else:
+            click_command = None
+
+        run_button = tk.Button(
+            card_frame, 
+            text=btn_text, 
+            font=("Segoe UI", 11, "bold"), 
+            bg=btn_color, 
+            fg="#FFFFFF",
+            activebackground=self.current_theme["button_hover"],
+            activeforeground=btn_color,
+            relief="flat",
+            padx=20,
+            pady=10,
+            cursor="hand2" if is_available else "no",
+            state=btn_state,
+            command=click_command
+        )
+
         
         # Effetti hover per il pulsante (solo se disponibile)
         if is_available:
