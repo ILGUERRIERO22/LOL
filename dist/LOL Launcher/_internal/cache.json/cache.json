@@ -1,0 +1,84 @@
+{
+    "tsg ahristogatti#kiko": [
+        {
+            "id": "EUW1_7284371872",
+            "mode": "Ranked Solo/Duo",
+            "duration": "29 min",
+            "date": "2025-01-27 16:17:24",
+            "champion": "Ahri",
+            "score": "3/6/3"
+        },
+        {
+            "id": "EUW1_7284309839",
+            "mode": "Ranked Solo/Duo",
+            "duration": "27 min",
+            "date": "2025-01-27 15:32:47",
+            "champion": "Syndra",
+            "score": "6/1/7"
+        },
+        {
+            "id": "EUW1_7283906700",
+            "mode": "Ranked Solo/Duo",
+            "duration": "32 min",
+            "date": "2025-01-27 00:58:06",
+            "champion": "Diana",
+            "score": "6/7/3"
+        },
+        {
+            "id": "EUW1_7283840932",
+            "mode": "Ranked Solo/Duo",
+            "duration": "28 min",
+            "date": "2025-01-27 00:00:57",
+            "champion": "Ahri",
+            "score": "8/2/6"
+        },
+        {
+            "id": "EUW1_7283780714",
+            "mode": "Ranked Solo/Duo",
+            "duration": "34 min",
+            "date": "2025-01-26 23:17:45",
+            "champion": "Mel",
+            "score": "9/8/8"
+        },
+        {
+            "id": "EUW1_7283715958",
+            "mode": "Ranked Flex",
+            "duration": "27 min",
+            "date": "2025-01-26 22:42:13",
+            "champion": "Aurora",
+            "score": "4/7/3"
+        },
+        {
+            "id": "EUW1_7283654620",
+            "mode": "Ranked Flex",
+            "duration": "26 min",
+            "date": "2025-01-26 22:07:38",
+            "champion": "Malzahar",
+            "score": "2/6/1"
+        },
+        {
+            "id": "EUW1_7283600853",
+            "mode": "Ranked Flex",
+            "duration": "19 min",
+            "date": "2025-01-26 21:41:58",
+            "champion": "Mel",
+            "score": "6/3/0"
+        },
+        {
+            "id": "EUW1_7283554931",
+            "mode": "Ranked Flex",
+            "duration": "15 min",
+            "date": "2025-01-26 21:19:10",
+            "champion": "Sylas",
+            "score": "0/1/1"
+        },
+        {
+            "id": "EUW1_7283157221",
+            "mode": "Ranked Solo/Duo",
+            "duration": "40 min",
+            "date": "2025-01-26 17:48:57",
+            "champion": "Syndra",
+            "score": "13/5/13"
+        }
+    ]
+}

@@ -1,0 +1,628 @@
+2025-04-19 01:04:38,693 - INFO - Script avviato
+2025-04-19 01:04:38,801 - INFO - Client LoL rilevato e connesso
+2025-04-19 01:04:44,778 - INFO - Script avviato
+2025-04-19 01:04:44,879 - INFO - Client LoL rilevato e connesso
+2025-04-19 01:05:20,715 - INFO - Script avviato
+2025-04-19 01:05:20,826 - INFO - Client LoL rilevato e connesso
+2025-04-19 01:05:34,249 - INFO - Match trovato - Accettando
+2025-04-19 01:05:34,383 - INFO - Partita accettata con successo
+2025-04-19 01:09:10,436 - INFO - Script avviato
+2025-04-19 01:09:10,561 - INFO - Client LoL rilevato e connesso
+2025-04-19 01:09:10,610 - INFO - Cambio di stato: None -> None
+2025-04-19 01:10:11,547 - INFO - Match trovato - Accettando
+2025-04-19 01:10:11,675 - INFO - Partita accettata con successo
+2025-04-19 01:10:51,984 - INFO - Match trovato - Accettando
+2025-04-19 01:10:52,102 - INFO - Partita accettata con successo
+2025-04-19 01:11:55,235 - INFO - Script avviato
+2025-04-19 01:11:55,608 - INFO - Client LoL non rilevato all'avvio
+2025-04-19 01:12:36,444 - INFO - Client LoL rilevato e connesso
+2025-04-19 01:12:38,506 - ERROR - Errore di connessione al client: HTTPSConnectionPool(host='127.0.0.1', port=51656): Max retries exceeded with url: /lol-gameflow/v1/gameflow-phase (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021B9859A590>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-19 01:12:43,586 - INFO - Cambio di stato: None -> None
+2025-04-19 01:12:59,033 - INFO - Cambio di stato: None -> Lobby
+2025-04-19 01:13:09,110 - INFO - Cambio di stato: Lobby -> ReadyCheck
+2025-04-19 01:13:09,110 - INFO - Match trovato - Accettando
+2025-04-19 01:13:09,255 - INFO - Partita accettata con successo
+2025-04-19 01:13:14,291 - INFO - Cambio di stato: ReadyCheck -> InProgress
+2025-04-19 01:13:24,928 - INFO - Cambio di stato: InProgress -> None
+2025-04-19 01:13:45,108 - INFO - Cambio di stato: None -> Lobby
+2025-04-19 01:13:50,148 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-19 01:13:51,226 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-19 01:13:51,226 - INFO - Match trovato - Accettando
+2025-04-19 01:13:51,374 - INFO - Partita accettata con successo
+2025-04-19 01:13:56,410 - INFO - Match trovato - Accettando
+2025-04-19 01:13:56,562 - INFO - Partita accettata con successo
+2025-04-19 01:14:01,580 - INFO - Client LoL chiuso
+2025-04-19 01:14:01,588 - INFO - Client LoL chiuso
+2025-04-19 01:18:55,015 - INFO - Script avviato
+2025-04-19 01:18:55,360 - INFO - Client LoL non rilevato all'avvio
+2025-04-19 01:19:56,269 - INFO - Client LoL rilevato e connesso
+2025-04-19 01:19:56,325 - INFO - Cambio di stato: None -> None
+2025-04-19 01:20:21,535 - INFO - Cambio di stato: None -> Lobby
+2025-04-19 01:20:26,577 - INFO - Cambio di stato: Lobby -> ReadyCheck
+2025-04-19 01:20:26,577 - INFO - Match trovato - Accettando
+2025-04-19 01:20:26,720 - INFO - Partita accettata con successo
+2025-04-19 01:20:31,780 - INFO - Cambio di stato: ReadyCheck -> InProgress
+2025-04-19 01:20:41,881 - INFO - Cambio di stato: InProgress -> None
+2025-04-19 01:20:46,920 - INFO - Cambio di stato: None -> Lobby
+2025-04-19 01:20:51,962 - INFO - Cambio di stato: Lobby -> ReadyCheck
+2025-04-19 01:20:51,963 - INFO - Match trovato - Accettando
+2025-04-19 01:20:52,111 - INFO - Partita accettata con successo
+2025-04-19 01:20:57,153 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-19 01:21:17,291 - INFO - Client LoL chiuso
+2025-04-19 01:21:17,298 - INFO - Client LoL chiuso
+2025-04-19 01:22:18,215 - INFO - Client LoL rilevato e connesso
+2025-04-19 01:22:18,255 - INFO - Cambio di stato: None -> None
+2025-04-19 01:22:33,374 - INFO - Cambio di stato: None -> InProgress
+2025-04-19 01:22:43,511 - INFO - Cambio di stato: InProgress -> None
+2025-04-19 01:24:42,515 - INFO - Script avviato
+2025-04-19 01:24:43,789 - INFO - Client LoL rilevato e connesso
+2025-04-19 01:24:43,838 - INFO - Cambio di stato: None -> None
+2025-04-19 01:27:53,526 - INFO - Script avviato
+2025-04-19 01:27:53,791 - INFO - Client LoL non rilevato all'avvio
+2025-04-19 01:28:54,916 - INFO - Client LoL rilevato e connesso
+2025-04-19 01:28:54,966 - INFO - Cambio di stato: None -> None
+2025-04-19 03:59:51,633 - INFO - Client LoL chiuso
+2025-04-19 03:59:51,637 - INFO - Client LoL chiuso
+2025-04-19 12:23:02,068 - INFO - Script avviato
+2025-04-19 12:23:02,349 - INFO - Client LoL non rilevato all'avvio
+2025-04-19 12:24:02,964 - INFO - Client LoL rilevato e connesso
+2025-04-19 12:24:03,006 - INFO - Cambio di stato: None -> None
+2025-04-19 12:24:53,940 - INFO - Cambio di stato: None -> ReadyCheck
+2025-04-19 12:24:53,940 - INFO - Match trovato - Accettando
+2025-04-19 12:24:54,250 - INFO - Partita accettata con successo
+2025-04-19 12:24:59,283 - INFO - Cambio di stato: ReadyCheck -> InProgress
+2025-04-19 12:25:09,643 - INFO - Cambio di stato: InProgress -> None
+2025-04-19 12:25:24,711 - INFO - Client LoL chiuso
+2025-04-19 12:25:24,714 - INFO - Client LoL chiuso
+2025-04-19 12:26:25,432 - INFO - Client LoL rilevato e connesso
+2025-04-19 12:26:25,466 - INFO - Cambio di stato: None -> None
+2025-04-19 12:26:40,594 - INFO - Cambio di stato: None -> ReadyCheck
+2025-04-19 12:26:40,595 - INFO - Match trovato - Accettando
+2025-04-19 12:26:40,752 - INFO - Partita accettata con successo
+2025-04-19 12:26:45,791 - INFO - Cambio di stato: ReadyCheck -> InProgress
+2025-04-19 13:00:42,526 - INFO - Cambio di stato: InProgress -> EndOfGame
+2025-04-19 13:00:47,561 - INFO - Cambio di stato: EndOfGame -> None
+2025-04-19 13:54:49,865 - INFO - Cambio di stato: None -> Lobby
+2025-04-19 13:54:54,902 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-19 13:55:24,432 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-19 13:55:24,432 - INFO - Match trovato - Accettando
+2025-04-19 13:55:24,587 - INFO - Partita accettata con successo
+2025-04-19 13:55:29,625 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-19 13:57:10,426 - INFO - Cambio di stato: ChampSelect -> Matchmaking
+2025-04-19 13:57:13,121 - INFO - Cambio di stato: Matchmaking -> Lobby
+2025-04-19 13:58:23,649 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-19 13:58:51,395 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-19 13:58:51,395 - INFO - Match trovato - Accettando
+2025-04-19 13:58:51,526 - INFO - Partita accettata con successo
+2025-04-19 13:58:56,568 - INFO - Match trovato - Accettando
+2025-04-19 13:58:56,727 - INFO - Partita accettata con successo
+2025-04-19 13:59:01,761 - INFO - Match trovato - Accettando
+2025-04-19 13:59:01,907 - INFO - Partita accettata con successo
+2025-04-19 13:59:06,940 - INFO - Cambio di stato: ReadyCheck -> Matchmaking
+2025-04-19 13:59:49,651 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-19 13:59:49,651 - INFO - Match trovato - Accettando
+2025-04-19 13:59:49,790 - INFO - Partita accettata con successo
+2025-04-19 13:59:54,825 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-19 14:02:36,040 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-19 14:30:54,927 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-19 14:31:20,084 - INFO - Cambio di stato: PreEndOfGame -> EndOfGame
+2025-04-19 14:31:30,144 - INFO - Cambio di stato: EndOfGame -> Lobby
+2025-04-19 15:15:35,720 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-19 15:17:29,636 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-19 15:17:29,636 - INFO - Match trovato - Accettando
+2025-04-19 15:17:29,755 - INFO - Partita accettata con successo
+2025-04-19 15:17:34,797 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-19 15:21:01,385 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-19 15:53:12,619 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-19 15:53:37,794 - INFO - Cambio di stato: PreEndOfGame -> EndOfGame
+2025-04-19 15:53:57,930 - INFO - Cambio di stato: EndOfGame -> Lobby
+2025-04-19 15:54:08,007 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-19 15:54:49,253 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-19 15:54:49,253 - INFO - Match trovato - Accettando
+2025-04-19 15:54:49,373 - INFO - Partita accettata con successo
+2025-04-19 15:54:54,405 - INFO - Match trovato - Accettando
+2025-04-19 15:54:54,523 - INFO - Partita accettata con successo
+2025-04-19 15:54:59,570 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-19 15:58:21,072 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-19 16:28:51,264 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-19 16:29:01,345 - INFO - Cambio di stato: PreEndOfGame -> EndOfGame
+2025-04-19 16:29:11,414 - INFO - Cambio di stato: EndOfGame -> Lobby
+2025-04-19 16:29:31,565 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-19 16:29:49,292 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-19 16:29:49,292 - INFO - Match trovato - Accettando
+2025-04-19 16:29:49,432 - INFO - Partita accettata con successo
+2025-04-19 16:29:54,469 - INFO - Match trovato - Accettando
+2025-04-19 16:29:54,607 - INFO - Partita accettata con successo
+2025-04-19 16:29:59,642 - INFO - Match trovato - Accettando
+2025-04-19 16:29:59,762 - INFO - Partita accettata con successo
+2025-04-19 16:30:04,800 - INFO - Cambio di stato: ReadyCheck -> Matchmaking
+2025-04-19 16:30:15,545 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-19 16:30:15,545 - INFO - Match trovato - Accettando
+2025-04-19 16:30:15,671 - INFO - Partita accettata con successo
+2025-04-19 16:30:20,706 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-19 16:30:50,910 - INFO - Cambio di stato: ChampSelect -> Matchmaking
+2025-04-19 16:31:31,596 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-19 16:31:31,596 - INFO - Match trovato - Accettando
+2025-04-19 16:31:31,728 - INFO - Partita accettata con successo
+2025-04-19 16:31:36,761 - INFO - Match trovato - Accettando
+2025-04-19 16:31:37,125 - INFO - Partita accettata con successo
+2025-04-19 16:31:42,161 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-19 16:35:23,832 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-19 17:20:57,397 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-19 17:21:03,288 - INFO - Cambio di stato: PreEndOfGame -> EndOfGame
+2025-04-19 17:21:58,674 - INFO - Cambio di stato: EndOfGame -> None
+2025-04-19 17:33:03,278 - INFO - Client LoL chiuso
+2025-04-19 17:33:03,282 - INFO - Client LoL chiuso
+2025-04-19 17:34:03,756 - INFO - Client LoL rilevato e connesso
+2025-04-19 17:34:03,796 - INFO - Cambio di stato: None -> None
+2025-04-19 22:30:13,310 - INFO - Client LoL chiuso
+2025-04-19 22:30:13,332 - INFO - Client LoL chiuso
+2025-04-19 22:31:14,306 - INFO - Client LoL rilevato e connesso
+2025-04-19 22:31:14,361 - INFO - Cambio di stato: None -> None
+2025-04-19 22:33:00,783 - INFO - Client LoL chiuso
+2025-04-19 22:33:00,789 - INFO - Client LoL chiuso
+2025-04-19 22:34:02,359 - INFO - Client LoL rilevato e connesso
+2025-04-19 22:34:02,471 - INFO - Cambio di stato: None -> None
+2025-04-19 22:34:17,580 - INFO - Client LoL chiuso
+2025-04-19 22:34:17,586 - INFO - Client LoL chiuso
+2025-04-19 22:35:18,511 - INFO - Client LoL rilevato e connesso
+2025-04-19 22:35:18,570 - INFO - Cambio di stato: None -> None
+2025-04-19 22:37:14,650 - INFO - Client LoL chiuso
+2025-04-19 22:37:14,654 - INFO - Client LoL chiuso
+2025-04-19 22:44:15,791 - INFO - Client LoL rilevato e connesso
+2025-04-19 22:44:17,859 - ERROR - Errore di connessione al client: HTTPSConnectionPool(host='127.0.0.1', port=57150): Max retries exceeded with url: /lol-gameflow/v1/gameflow-phase (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002239D971C10>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-19 22:44:22,960 - INFO - Cambio di stato: None -> None
+2025-04-19 22:44:45,702 - INFO - Client LoL chiuso
+2025-04-19 22:44:45,708 - INFO - Client LoL chiuso
+2025-04-19 22:53:47,978 - INFO - Client LoL rilevato e connesso
+2025-04-19 22:53:48,134 - INFO - Cambio di stato: None -> None
+2025-04-19 23:14:09,078 - INFO - Cambio di stato: None -> Lobby
+2025-04-19 23:14:29,218 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-19 23:16:31,090 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-19 23:16:31,090 - INFO - Match trovato - Accettando
+2025-04-19 23:16:31,231 - INFO - Partita accettata con successo
+2025-04-19 23:16:36,263 - INFO - Match trovato - Accettando
+2025-04-19 23:16:36,381 - ERROR - Errore nell'accettare la partita: 500
+2025-04-19 23:16:41,416 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-19 23:19:22,645 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-19 23:44:20,133 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-19 23:44:30,234 - INFO - Cambio di stato: PreEndOfGame -> EndOfGame
+2025-04-19 23:45:10,526 - INFO - Cambio di stato: EndOfGame -> Lobby
+2025-04-20 02:33:45,537 - INFO - Client LoL chiuso
+2025-04-20 02:33:45,537 - INFO - Client LoL chiuso
+2025-04-20 18:38:59,642 - INFO - Script avviato
+2025-04-20 18:39:00,060 - INFO - Client LoL non rilevato all'avvio
+2025-04-20 18:40:00,995 - INFO - Client LoL rilevato e connesso
+2025-04-20 18:40:01,051 - INFO - Cambio di stato: None -> Lobby
+2025-04-20 18:40:06,085 - INFO - Cambio di stato: Lobby -> ReadyCheck
+2025-04-20 18:40:06,085 - INFO - Match trovato - Accettando
+2025-04-20 18:40:06,404 - INFO - Partita accettata con successo
+2025-04-20 18:40:11,443 - INFO - Cambio di stato: ReadyCheck -> InProgress
+2025-04-20 18:40:26,554 - INFO - Cambio di stato: InProgress -> None
+2025-04-20 18:40:36,592 - INFO - Client LoL chiuso
+2025-04-20 18:40:36,596 - INFO - Client LoL chiuso
+2025-04-20 18:41:37,759 - INFO - Client LoL rilevato e connesso
+2025-04-20 18:41:37,803 - INFO - Cambio di stato: None -> None
+2025-04-20 18:49:51,608 - INFO - Client LoL chiuso
+2025-04-20 18:49:51,613 - INFO - Client LoL chiuso
+2025-04-20 18:50:52,450 - INFO - Client LoL rilevato e connesso
+2025-04-20 18:50:52,489 - INFO - Cambio di stato: None -> None
+2025-04-20 18:51:37,827 - INFO - Client LoL chiuso
+2025-04-20 18:51:37,834 - INFO - Client LoL chiuso
+2025-04-20 18:52:38,665 - INFO - Client LoL rilevato e connesso
+2025-04-20 18:52:38,698 - INFO - Cambio di stato: None -> None
+2025-04-20 22:47:23,712 - INFO - Script avviato
+2025-04-20 22:47:24,093 - INFO - Client LoL non rilevato all'avvio
+2025-04-20 23:01:25,001 - INFO - Client LoL rilevato e connesso
+2025-04-20 23:01:25,065 - INFO - Cambio di stato: None -> None
+2025-04-20 23:06:47,584 - INFO - Cambio di stato: None -> Lobby
+2025-04-21 00:42:59,742 - INFO - Cambio di stato: Lobby -> InProgress
+2025-04-21 01:13:40,014 - INFO - Cambio di stato: InProgress -> EndOfGame
+2025-04-21 01:13:50,090 - INFO - Cambio di stato: EndOfGame -> None
+2025-04-21 03:03:38,692 - INFO - Client LoL chiuso
+2025-04-21 03:03:38,695 - INFO - Client LoL chiuso
+2025-04-21 12:49:46,600 - INFO - Script avviato
+2025-04-21 12:49:46,984 - INFO - Client LoL non rilevato all'avvio
+2025-04-21 13:00:47,972 - INFO - Client LoL rilevato e connesso
+2025-04-21 13:00:48,041 - INFO - Cambio di stato: None -> None
+2025-04-21 14:15:21,576 - INFO - Cambio di stato: None -> Lobby
+2025-04-21 14:32:18,991 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-21 14:32:30,363 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-21 14:32:30,365 - INFO - Match trovato - Accettando
+2025-04-21 14:32:30,506 - INFO - Partita accettata con successo
+2025-04-21 14:32:35,553 - INFO - Match trovato - Accettando
+2025-04-21 14:32:35,675 - INFO - Partita accettata con successo
+2025-04-21 14:32:40,709 - INFO - Match trovato - Accettando
+2025-04-21 14:32:40,831 - INFO - Partita accettata con successo
+2025-04-21 14:32:45,862 - INFO - Match trovato - Accettando
+2025-04-21 14:32:46,001 - INFO - Partita accettata con successo
+2025-04-21 14:32:51,035 - INFO - Cambio di stato: ReadyCheck -> InProgress
+2025-04-21 14:54:22,386 - INFO - Cambio di stato: InProgress -> Reconnect
+2025-04-21 14:54:27,528 - INFO - Cambio di stato: Reconnect -> InProgress
+2025-04-21 15:09:55,549 - INFO - Cambio di stato: InProgress -> EndOfGame
+2025-04-21 15:10:15,848 - INFO - Cambio di stato: EndOfGame -> None
+2025-04-21 15:21:40,833 - INFO - Cambio di stato: None -> Lobby
+2025-04-21 15:22:11,055 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-21 15:22:12,141 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-21 15:22:12,141 - INFO - Match trovato - Accettando
+2025-04-21 15:22:12,268 - INFO - Partita accettata con successo
+2025-04-21 15:22:17,311 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-21 15:25:23,744 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-21 15:44:03,444 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-21 15:44:13,533 - INFO - Cambio di stato: PreEndOfGame -> EndOfGame
+2025-04-21 15:44:38,732 - INFO - Cambio di stato: EndOfGame -> Lobby
+2025-04-21 15:48:15,504 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-21 15:50:16,110 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-21 15:50:16,110 - INFO - Match trovato - Accettando
+2025-04-21 15:50:16,245 - INFO - Partita accettata con successo
+2025-04-21 15:50:21,280 - INFO - Match trovato - Accettando
+2025-04-21 15:50:21,412 - ERROR - Errore nell'accettare la partita: 500
+2025-04-21 15:50:26,452 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-21 15:53:43,122 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-21 16:22:13,226 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-21 16:22:23,307 - INFO - Cambio di stato: PreEndOfGame -> EndOfGame
+2025-04-21 16:22:43,456 - INFO - Cambio di stato: EndOfGame -> Lobby
+2025-04-21 17:55:23,961 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-21 17:55:27,745 - INFO - Cambio di stato: Matchmaking -> Lobby
+2025-04-21 17:56:03,006 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-21 17:56:30,387 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-21 17:56:30,387 - INFO - Match trovato - Accettando
+2025-04-21 17:56:30,526 - INFO - Partita accettata con successo
+2025-04-21 17:56:35,564 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-21 18:00:42,450 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-21 18:31:23,601 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-21 18:31:33,668 - INFO - Cambio di stato: PreEndOfGame -> EndOfGame
+2025-04-21 18:31:58,838 - INFO - Cambio di stato: EndOfGame -> Lobby
+2025-04-21 18:32:54,226 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-21 18:33:12,217 - INFO - Cambio di stato: Matchmaking -> Lobby
+2025-04-21 18:33:32,381 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-21 18:34:11,396 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-21 18:34:11,396 - INFO - Match trovato - Accettando
+2025-04-21 18:34:11,545 - INFO - Partita accettata con successo
+2025-04-21 18:34:16,597 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-21 18:37:43,365 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-21 19:16:23,467 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-21 19:17:03,789 - INFO - Cambio di stato: PreEndOfGame -> EndOfGame
+2025-04-21 19:22:46,572 - INFO - Cambio di stato: EndOfGame -> None
+2025-04-21 20:59:43,468 - INFO - Client LoL chiuso
+2025-04-21 20:59:43,481 - INFO - Client LoL chiuso
+2025-04-21 21:00:44,020 - INFO - Client LoL rilevato e connesso
+2025-04-21 21:00:44,463 - INFO - Cambio di stato: None -> None
+2025-04-21 21:04:16,053 - INFO - Client LoL chiuso
+2025-04-21 21:04:16,060 - INFO - Client LoL chiuso
+2025-04-21 21:05:16,880 - INFO - Client LoL rilevato e connesso
+2025-04-21 21:05:16,912 - INFO - Cambio di stato: None -> None
+2025-04-21 21:15:17,202 - INFO - Cambio di stato: None -> Lobby
+2025-04-21 21:15:22,242 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-21 21:15:31,346 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-21 21:15:31,346 - INFO - Match trovato - Accettando
+2025-04-21 21:15:31,663 - INFO - Partita accettata con successo
+2025-04-21 21:15:36,702 - INFO - Match trovato - Accettando
+2025-04-21 21:15:36,838 - INFO - Partita accettata con successo
+2025-04-21 21:15:41,915 - INFO - Cambio di stato: ReadyCheck -> InProgress
+2025-04-21 21:50:39,385 - INFO - Cambio di stato: InProgress -> EndOfGame
+2025-04-21 21:50:54,481 - INFO - Cambio di stato: EndOfGame -> None
+2025-04-22 00:08:51,580 - INFO - Client LoL chiuso
+2025-04-22 00:08:51,585 - INFO - Client LoL chiuso
+2025-04-22 00:12:52,809 - INFO - Client LoL rilevato e connesso
+2025-04-22 00:12:52,846 - INFO - Cambio di stato: None -> None
+2025-04-22 01:23:26,581 - INFO - Script avviato
+2025-04-22 01:23:26,977 - INFO - Client LoL non rilevato all'avvio
+2025-04-22 01:40:27,951 - INFO - Client LoL rilevato e connesso
+2025-04-22 01:40:28,010 - INFO - Cambio di stato: None -> None
+2025-04-22 02:25:23,060 - INFO - Cambio di stato: None -> Lobby
+2025-04-22 02:25:38,179 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-22 02:25:59,084 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-22 02:25:59,084 - INFO - Match trovato - Accettando
+2025-04-22 02:25:59,217 - INFO - Partita accettata con successo
+2025-04-22 02:26:04,258 - INFO - Cambio di stato: ReadyCheck -> InProgress
+2025-04-22 03:01:37,428 - INFO - Cambio di stato: InProgress -> EndOfGame
+2025-04-22 03:01:52,551 - INFO - Cambio di stato: EndOfGame -> Lobby
+2025-04-22 03:02:12,878 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-22 03:02:44,921 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-22 03:02:44,921 - INFO - Match trovato - Accettando
+2025-04-22 03:02:45,062 - INFO - Partita accettata con successo
+2025-04-22 03:02:50,098 - INFO - Match trovato - Accettando
+2025-04-22 03:02:50,209 - INFO - Partita accettata con successo
+2025-04-22 03:02:55,242 - INFO - Match trovato - Accettando
+2025-04-22 03:02:55,366 - INFO - Partita accettata con successo
+2025-04-22 03:03:00,398 - INFO - Cambio di stato: ReadyCheck -> Matchmaking
+2025-04-22 03:03:05,728 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-22 03:03:05,728 - INFO - Match trovato - Accettando
+2025-04-22 03:03:05,851 - INFO - Partita accettata con successo
+2025-04-22 03:03:10,884 - INFO - Match trovato - Accettando
+2025-04-22 03:03:10,993 - INFO - Partita accettata con successo
+2025-04-22 03:03:16,361 - INFO - Cambio di stato: ReadyCheck -> InProgress
+2025-04-22 03:31:45,844 - INFO - Cambio di stato: InProgress -> EndOfGame
+2025-04-22 03:32:16,055 - INFO - Cambio di stato: EndOfGame -> None
+2025-04-22 03:33:11,423 - INFO - Client LoL chiuso
+2025-04-22 03:33:11,429 - INFO - Client LoL chiuso
+2025-04-22 12:49:48,759 - INFO - Script avviato
+2025-04-22 12:49:49,081 - INFO - Client LoL non rilevato all'avvio
+2025-04-22 13:02:49,838 - INFO - Client LoL rilevato e connesso
+2025-04-22 13:02:49,903 - INFO - Cambio di stato: None -> None
+2025-04-22 13:09:53,298 - INFO - Cambio di stato: None -> Lobby
+2025-04-22 13:09:58,338 - INFO - Cambio di stato: Lobby -> ReadyCheck
+2025-04-22 13:09:58,338 - INFO - Match trovato - Accettando
+2025-04-22 13:09:58,690 - INFO - Partita accettata con successo
+2025-04-22 13:10:03,731 - INFO - Cambio di stato: ReadyCheck -> InProgress
+2025-04-22 13:10:49,116 - INFO - Cambio di stato: InProgress -> None
+2025-04-22 13:11:14,291 - INFO - Client LoL chiuso
+2025-04-22 13:11:14,295 - INFO - Client LoL chiuso
+2025-04-22 13:12:15,221 - INFO - Client LoL rilevato e connesso
+2025-04-22 13:12:15,257 - INFO - Cambio di stato: None -> None
+2025-04-22 13:21:44,918 - INFO - Client LoL chiuso
+2025-04-22 13:21:44,933 - INFO - Client LoL chiuso
+2025-04-22 13:22:44,955 - INFO - Client LoL rilevato e connesso
+2025-04-22 13:22:44,998 - INFO - Cambio di stato: None -> None
+2025-04-22 13:25:43,504 - ERROR - Errore di connessione al client: HTTPSConnectionPool(host='127.0.0.1', port=59880): Max retries exceeded with url: /lol-gameflow/v1/gameflow-phase (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001E673983110>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-22 13:25:43,514 - INFO - Client LoL chiuso dopo errore di connessione
+2025-04-22 13:25:43,519 - INFO - Client LoL chiuso
+2025-04-22 13:29:44,556 - INFO - Client LoL rilevato e connesso
+2025-04-22 13:29:44,592 - INFO - Cambio di stato: None -> None
+2025-04-22 13:32:30,806 - INFO - Client LoL chiuso
+2025-04-22 13:32:30,812 - INFO - Client LoL chiuso
+2025-04-22 13:34:32,424 - INFO - Client LoL rilevato e connesso
+2025-04-22 13:34:32,634 - INFO - Cambio di stato: None -> None
+2025-04-22 14:11:39,456 - INFO - Cambio di stato: None -> Lobby
+2025-04-22 14:11:59,597 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-22 14:12:22,592 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-22 14:12:22,592 - INFO - Match trovato - Accettando
+2025-04-22 14:12:22,784 - INFO - Partita accettata con successo
+2025-04-22 14:12:27,819 - INFO - Match trovato - Accettando
+2025-04-22 14:12:27,966 - INFO - Partita accettata con successo
+2025-04-22 14:12:33,000 - INFO - Match trovato - Accettando
+2025-04-22 14:12:33,116 - INFO - Partita accettata con successo
+2025-04-22 14:12:38,155 - INFO - Cambio di stato: ReadyCheck -> Matchmaking
+2025-04-22 14:12:40,292 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-22 14:12:40,292 - INFO - Match trovato - Accettando
+2025-04-22 14:12:40,416 - INFO - Partita accettata con successo
+2025-04-22 14:12:45,450 - INFO - Match trovato - Accettando
+2025-04-22 14:12:45,594 - INFO - Partita accettata con successo
+2025-04-22 14:12:50,628 - INFO - Match trovato - Accettando
+2025-04-22 14:12:50,762 - INFO - Partita accettata con successo
+2025-04-22 14:12:55,829 - INFO - Cambio di stato: ReadyCheck -> InProgress
+2025-04-22 14:19:14,673 - INFO - Cambio di stato: InProgress -> Reconnect
+2025-04-22 14:21:55,560 - INFO - Script avviato
+2025-04-22 14:21:56,878 - INFO - Client LoL rilevato e connesso
+2025-04-22 14:21:56,935 - INFO - Cambio di stato: None -> InProgress
+2025-04-22 14:47:54,960 - INFO - Cambio di stato: InProgress -> EndOfGame
+2025-04-22 14:48:10,061 - INFO - Cambio di stato: EndOfGame -> None
+2025-04-22 16:11:35,427 - INFO - Cambio di stato: None -> Lobby
+2025-04-22 16:11:45,497 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-22 16:13:35,966 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-22 16:13:35,966 - INFO - Match trovato - Accettando
+2025-04-22 16:13:36,124 - INFO - Partita accettata con successo
+2025-04-22 16:13:41,162 - INFO - Match trovato - Accettando
+2025-04-22 16:13:41,289 - INFO - Partita accettata con successo
+2025-04-22 16:13:46,330 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-22 16:16:37,758 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-22 16:54:17,037 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-22 16:54:27,106 - INFO - Cambio di stato: PreEndOfGame -> EndOfGame
+2025-04-22 16:55:27,540 - INFO - Cambio di stato: EndOfGame -> Lobby
+2025-04-22 16:55:32,570 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-22 16:55:43,261 - INFO - Cambio di stato: Matchmaking -> Lobby
+2025-04-22 18:12:22,335 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-22 18:12:25,539 - INFO - Cambio di stato: Matchmaking -> Lobby
+2025-04-22 18:15:06,680 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-22 18:16:32,704 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-22 18:16:32,704 - INFO - Match trovato - Accettando
+2025-04-22 18:16:32,850 - INFO - Partita accettata con successo
+2025-04-22 18:16:37,886 - INFO - Match trovato - Accettando
+2025-04-22 18:16:38,016 - INFO - Partita accettata con successo
+2025-04-22 18:16:43,054 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-22 18:17:53,648 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-22 18:28:54,649 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-22 18:29:04,732 - INFO - Cambio di stato: PreEndOfGame -> EndOfGame
+2025-04-22 18:29:29,900 - INFO - Cambio di stato: EndOfGame -> Lobby
+2025-04-22 18:30:11,382 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-22 18:30:38,203 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-22 18:30:38,203 - INFO - Match trovato - Accettando
+2025-04-22 18:30:38,517 - INFO - Partita accettata con successo
+2025-04-22 18:30:43,568 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-22 18:31:28,892 - INFO - Cambio di stato: ChampSelect -> ReadyCheck
+2025-04-22 18:31:28,892 - INFO - Match trovato - Accettando
+2025-04-22 18:31:29,020 - INFO - Partita accettata con successo
+2025-04-22 18:31:34,057 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-22 18:32:44,580 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-22 18:51:09,720 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-22 18:51:35,470 - INFO - Cambio di stato: PreEndOfGame -> EndOfGame
+2025-04-22 18:52:15,758 - INFO - Cambio di stato: EndOfGame -> None
+2025-04-22 21:36:13,085 - INFO - Cambio di stato: None -> Lobby
+2025-04-22 21:37:13,546 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-22 21:38:23,346 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-22 21:38:23,346 - INFO - Match trovato - Accettando
+2025-04-22 21:38:23,477 - INFO - Partita accettata con successo
+2025-04-22 21:38:28,516 - INFO - Match trovato - Accettando
+2025-04-22 21:38:28,662 - INFO - Partita accettata con successo
+2025-04-22 21:38:33,701 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-22 21:41:55,367 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-22 22:12:52,355 - INFO - Cambio di stato: InProgress -> WaitingForStats
+2025-04-22 22:12:57,388 - INFO - Cambio di stato: WaitingForStats -> PreEndOfGame
+2025-04-22 22:13:07,457 - INFO - Cambio di stato: PreEndOfGame -> EndOfGame
+2025-04-22 22:13:57,827 - INFO - Cambio di stato: EndOfGame -> Lobby
+2025-04-22 22:14:02,860 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-22 22:15:14,463 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-22 22:15:14,464 - INFO - Match trovato - Accettando
+2025-04-22 22:15:14,619 - INFO - Partita accettata con successo
+2025-04-22 22:15:19,653 - INFO - Match trovato - Accettando
+2025-04-22 22:15:19,785 - INFO - Partita accettata con successo
+2025-04-22 22:15:24,820 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-22 22:17:20,673 - INFO - Cambio di stato: ChampSelect -> Matchmaking
+2025-04-22 22:17:21,750 - INFO - Cambio di stato: Matchmaking -> Lobby
+2025-04-22 22:17:26,791 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-22 22:17:28,938 - INFO - Cambio di stato: Matchmaking -> Lobby
+2025-04-22 22:17:39,006 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-22 22:18:55,946 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-22 22:18:55,946 - INFO - Match trovato - Accettando
+2025-04-22 22:18:56,075 - INFO - Partita accettata con successo
+2025-04-22 22:19:01,116 - INFO - Match trovato - Accettando
+2025-04-22 22:19:01,254 - INFO - Partita accettata con successo
+2025-04-22 22:19:06,289 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-22 22:22:47,972 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-22 22:54:15,007 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-22 22:54:30,130 - INFO - Cambio di stato: PreEndOfGame -> EndOfGame
+2025-04-22 22:56:05,781 - INFO - Cambio di stato: EndOfGame -> Lobby
+2025-04-22 22:57:16,260 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-22 22:59:01,396 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-22 22:59:01,396 - INFO - Match trovato - Accettando
+2025-04-22 22:59:01,518 - INFO - Partita accettata con successo
+2025-04-22 22:59:06,555 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-22 23:03:18,360 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-22 23:35:00,761 - INFO - Cambio di stato: InProgress -> WaitingForStats
+2025-04-22 23:35:05,797 - INFO - Cambio di stato: WaitingForStats -> PreEndOfGame
+2025-04-22 23:35:20,900 - INFO - Cambio di stato: PreEndOfGame -> EndOfGame
+2025-04-22 23:36:01,239 - INFO - Cambio di stato: EndOfGame -> Lobby
+2025-04-22 23:43:49,791 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-22 23:46:06,563 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-22 23:46:06,563 - INFO - Match trovato - Accettando
+2025-04-22 23:46:06,880 - INFO - Partita accettata con successo
+2025-04-22 23:46:11,919 - INFO - Match trovato - Accettando
+2025-04-22 23:46:12,043 - INFO - Partita accettata con successo
+2025-04-22 23:46:17,080 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-22 23:49:48,793 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-23 00:30:46,597 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-23 00:31:12,228 - INFO - Cambio di stato: PreEndOfGame -> EndOfGame
+2025-04-23 00:32:17,670 - INFO - Cambio di stato: EndOfGame -> Lobby
+2025-04-23 00:37:14,757 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-23 00:37:39,829 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-23 00:37:39,829 - INFO - Match trovato - Accettando
+2025-04-23 00:37:39,961 - INFO - Partita accettata con successo
+2025-04-23 00:37:44,997 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-23 00:39:25,773 - INFO - Cambio di stato: ChampSelect -> Lobby
+2025-04-23 00:45:38,594 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-23 00:45:58,496 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-23 00:45:58,496 - INFO - Match trovato - Accettando
+2025-04-23 00:45:58,632 - INFO - Partita accettata con successo
+2025-04-23 00:46:03,675 - INFO - Match trovato - Accettando
+2025-04-23 00:46:03,808 - INFO - Partita accettata con successo
+2025-04-23 00:46:08,851 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-23 00:49:10,316 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-23 01:36:00,656 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-23 01:36:15,759 - INFO - Cambio di stato: PreEndOfGame -> EndOfGame
+2025-04-23 01:37:31,264 - INFO - Cambio di stato: EndOfGame -> Lobby
+2025-04-23 01:38:21,626 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-23 01:38:24,848 - INFO - Cambio di stato: Matchmaking -> Lobby
+2025-04-23 01:38:29,880 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-23 01:39:08,270 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-23 01:39:08,270 - INFO - Match trovato - Accettando
+2025-04-23 01:39:08,553 - INFO - Partita accettata con successo
+2025-04-23 01:39:13,586 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-23 01:40:54,418 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-23 02:00:40,659 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-23 02:00:55,937 - INFO - Cambio di stato: PreEndOfGame -> Lobby
+2025-04-23 02:01:00,973 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-23 02:01:39,440 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-23 02:01:39,440 - INFO - Match trovato - Accettando
+2025-04-23 02:01:39,580 - INFO - Partita accettata con successo
+2025-04-23 02:01:44,617 - INFO - Match trovato - Accettando
+2025-04-23 02:01:44,758 - INFO - Partita accettata con successo
+2025-04-23 02:01:49,791 - INFO - Match trovato - Accettando
+2025-04-23 02:01:49,909 - INFO - Partita accettata con successo
+2025-04-23 02:01:54,945 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-23 02:03:40,834 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-23 02:23:11,582 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-23 02:23:31,737 - INFO - Cambio di stato: PreEndOfGame -> Matchmaking
+2025-04-23 02:24:04,414 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-23 02:24:04,414 - INFO - Match trovato - Accettando
+2025-04-23 02:24:04,708 - INFO - Partita accettata con successo
+2025-04-23 02:24:09,761 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-23 02:26:00,631 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-23 02:48:13,642 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-23 02:48:28,756 - INFO - Cambio di stato: PreEndOfGame -> Matchmaking
+2025-04-23 02:49:02,334 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-23 02:49:02,334 - INFO - Match trovato - Accettando
+2025-04-23 02:49:02,464 - INFO - Partita accettata con successo
+2025-04-23 02:49:07,500 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-23 02:50:43,230 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-23 03:16:17,434 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-23 03:16:32,541 - INFO - Cambio di stato: PreEndOfGame -> Matchmaking
+2025-04-23 03:16:45,526 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-23 03:16:45,526 - INFO - Match trovato - Accettando
+2025-04-23 03:16:45,653 - INFO - Partita accettata con successo
+2025-04-23 03:16:50,691 - INFO - Match trovato - Accettando
+2025-04-23 03:16:50,826 - INFO - Partita accettata con successo
+2025-04-23 03:16:55,891 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-23 03:18:41,804 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-23 03:40:49,209 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-23 03:40:54,255 - INFO - Cambio di stato: PreEndOfGame -> None
+2025-04-23 04:04:15,099 - INFO - Client LoL chiuso
+2025-04-23 04:04:15,099 - INFO - Client LoL chiuso
+2025-04-23 12:26:35,255 - INFO - Script avviato
+2025-04-23 12:26:35,642 - INFO - Client LoL non rilevato all'avvio
+2025-04-23 12:35:37,776 - INFO - Client LoL rilevato e connesso
+2025-04-23 12:35:38,031 - INFO - Cambio di stato: None -> None
+2025-04-23 12:36:18,448 - INFO - Cambio di stato: None -> ReadyCheck
+2025-04-23 12:36:18,448 - INFO - Match trovato - Accettando
+2025-04-23 12:36:18,806 - INFO - Partita accettata con successo
+2025-04-23 12:36:23,849 - INFO - Cambio di stato: ReadyCheck -> InProgress
+2025-04-23 12:36:38,988 - INFO - Cambio di stato: InProgress -> None
+2025-04-23 12:36:59,113 - INFO - Client LoL chiuso
+2025-04-23 12:36:59,118 - INFO - Client LoL chiuso
+2025-04-23 12:38:00,251 - INFO - Client LoL rilevato e connesso
+2025-04-23 12:38:00,487 - INFO - Cambio di stato: None -> None
+2025-04-23 12:56:04,115 - INFO - Cambio di stato: None -> Lobby
+2025-04-23 12:56:09,151 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-23 12:56:35,982 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-23 12:56:35,982 - INFO - Match trovato - Accettando
+2025-04-23 12:56:36,140 - INFO - Partita accettata con successo
+2025-04-23 12:56:41,188 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-23 12:56:46,238 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-23 13:06:25,155 - INFO - Script avviato
+2025-04-23 13:06:26,532 - INFO - Client LoL rilevato e connesso
+2025-04-23 13:06:26,595 - INFO - Cambio di stato: None -> InProgress
+2025-04-23 13:27:07,766 - INFO - Cambio di stato: InProgress -> EndOfGame
+2025-04-23 13:27:17,835 - INFO - Cambio di stato: EndOfGame -> None
+2025-04-23 13:57:51,459 - INFO - Cambio di stato: None -> Lobby
+2025-04-23 14:09:01,397 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-23 14:10:12,009 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-23 14:10:12,010 - INFO - Match trovato - Accettando
+2025-04-23 14:10:12,127 - INFO - Partita accettata con successo
+2025-04-23 14:10:17,176 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-23 14:13:13,513 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-23 14:30:22,083 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-23 14:30:32,199 - INFO - Cambio di stato: PreEndOfGame -> EndOfGame
+2025-04-23 14:30:42,280 - INFO - Cambio di stato: EndOfGame -> Lobby
+2025-04-23 14:31:37,678 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-23 14:31:49,397 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-23 14:31:49,397 - INFO - Match trovato - Accettando
+2025-04-23 14:31:49,514 - INFO - Partita accettata con successo
+2025-04-23 14:31:54,553 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-23 14:35:41,285 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-23 14:57:52,584 - INFO - Cambio di stato: InProgress -> WaitingForStats
+2025-04-23 14:57:57,616 - INFO - Cambio di stato: WaitingForStats -> PreEndOfGame
+2025-04-23 14:58:07,685 - INFO - Cambio di stato: PreEndOfGame -> EndOfGame
+2025-04-23 14:58:27,824 - INFO - Cambio di stato: EndOfGame -> Lobby
+2025-04-23 14:59:38,380 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-23 15:00:18,419 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-23 15:00:18,419 - INFO - Match trovato - Accettando
+2025-04-23 15:00:18,552 - INFO - Partita accettata con successo
+2025-04-23 15:00:23,595 - INFO - Match trovato - Accettando
+2025-04-23 15:00:23,732 - ERROR - Errore nell'accettare la partita: 500
+2025-04-23 15:00:28,779 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-23 15:03:40,416 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-23 15:32:42,766 - INFO - Script avviato
+2025-04-23 15:32:44,117 - INFO - Client LoL rilevato e connesso
+2025-04-23 15:32:44,176 - INFO - Cambio di stato: None -> None
+2025-04-23 15:34:45,292 - INFO - Cambio di stato: None -> Lobby
+2025-04-23 15:35:10,469 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-04-23 15:37:35,192 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-04-23 15:37:35,192 - INFO - Match trovato - Accettando
+2025-04-23 15:37:35,324 - INFO - Partita accettata con successo
+2025-04-23 15:37:40,374 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-04-23 15:40:06,672 - INFO - Cambio di stato: ChampSelect -> InProgress
+2025-04-23 16:13:30,601 - INFO - Cambio di stato: InProgress -> PreEndOfGame
+2025-04-23 16:13:45,731 - INFO - Cambio di stato: PreEndOfGame -> EndOfGame
+2025-04-23 16:14:10,959 - INFO - Cambio di stato: EndOfGame -> Lobby
+2025-04-23 16:15:46,794 - INFO - Cambio di stato: Lobby -> None
+2025-04-23 16:22:33,275 - INFO - Script avviato
+2025-04-23 16:22:33,687 - INFO - Client LoL non rilevato all'avvio
+2025-04-23 16:46:34,086 - INFO - Client LoL rilevato e connesso
+2025-04-23 16:46:36,186 - INFO - Cambio di stato: None -> None
+2025-04-23 17:04:35,001 - INFO - Client LoL chiuso
+2025-04-23 17:04:35,004 - INFO - Client LoL chiuso
+2025-04-23 20:44:46,124 - INFO - Script avviato
+2025-04-23 20:44:46,125 - INFO - Notifica non visualizzata (win10toast non installato): LoL Auto Accept - Avvio del monitoraggio del client LoL...
+2025-04-23 20:44:46,457 - INFO - Notifica non visualizzata (win10toast non installato): LoL Auto Accept - Client LoL rilevato! Monitoraggio partite avviato.
+2025-04-23 20:44:47,092 - INFO - Client LoL rilevato e connesso
+2025-04-23 20:44:47,127 - INFO - Cambio di stato: None -> None

@@ -1,0 +1,13 @@
+2025-10-27 04:05:06,669 - INFO - Script avviato
+2025-10-27 04:05:06,719 - INFO - Client LoL rilevato e connesso
+2025-10-27 04:05:06,761 - INFO - Cambio di stato: None -> None
+2025-10-27 04:05:31,963 - INFO - Cambio di stato: None -> Lobby
+2025-10-27 04:05:36,993 - INFO - Cambio di stato: Lobby -> Matchmaking
+2025-10-27 04:07:48,817 - INFO - Cambio di stato: Matchmaking -> ReadyCheck
+2025-10-27 04:07:48,817 - INFO - Match trovato - Accettando
+2025-10-27 04:07:49,017 - INFO - Partita accettata con successo
+2025-10-27 04:07:54,055 - INFO - Cambio di stato: ReadyCheck -> ChampSelect
+2025-10-27 04:07:59,062 - INFO - Client LoL chiuso
+2025-10-27 04:07:59,065 - INFO - Client LoL chiuso
+2025-10-27 04:09:59,103 - INFO - Client LoL rilevato e connesso
+2025-10-27 04:09:59,133 - INFO - Cambio di stato: None -> None
